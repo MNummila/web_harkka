@@ -53,7 +53,7 @@ exports.user_create_post = [
     }
 ];
 
-// Display detail page for a specific book.
+// Display detail page for a specific user
 exports.user_detail = function(req, res, next) {
 
     async.parallel({
