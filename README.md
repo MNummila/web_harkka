@@ -4,7 +4,7 @@ Small microbog for posting messages.
 
 Currently code is ready for csc/rahti.
 
-To run locally.
+To run locally:
 
   -Download files.
   
