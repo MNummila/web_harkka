@@ -1,0 +1,12 @@
+extends layout
+
+block content
+	
+	h1 User: #{user.username}
+
+	p Users messages:
+
+	each message in user_messages
+		li
+			a #{message.content}
+

@@ -1,0 +1,47 @@
+.sidebar-nav {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+}
+h1{
+	margin-left: 40px;
+
+}
+li{
+	margin-left: 40px;
+}
+p{
+	padding: 10px;
+	margin-left: 30px;
+	font-size: 110%;
+}
+
+body{
+	background-color: rgb(200,200,200);
+	font-family: Arial;
+}
+button{
+	font-size: 20px;
+	padding: 10px 25px;
+	border-radius: 8px;
+	background-color: rgb(170,170,170);
+	border:1px solid black;
+	margin-left: 40px;
+	box-shadow: 0 5px 10px rgba(0,0,0,1);
+}
+label{
+	margin-left: 40px;
+}
+input{
+	margin: 10px;
+	padding: 7px;
+	width: 1000px;
+}
+select{
+	margin: 20px;
+	padding: 5px;
+	font-size: 110%;
+}
+p3{
+	margin-left: 40px;
+}

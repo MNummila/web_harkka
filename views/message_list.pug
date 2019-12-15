@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  
+  p3 Here are all of the messages in the order of posting.
+
+  ul
+    
+    each message in message_list
+      li 
+        a [#{message.user.username}]:
+        |   -----   #{message.content}
+
+    else
+      li There are no messages.

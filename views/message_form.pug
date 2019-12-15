@@ -1,0 +1,22 @@
+extends layout
+
+block content
+	h1= title
+  
+	form(method='POST' action='')
+		div.form-group
+			label(for='content') Message:
+			input#message.form-control(type='text', placeholder='Your message' name='content' required='true' value=(undefined===message ? '' :message.content))
+		div.form-group
+			label(for='user') User:
+			select#user.form-control(type='select', placeholder= 'Select user' name='user' required='true')
+				for user in users
+					if message
+						option(value=user._id selected=( user._id.toString()==message.user ? 'selected' : false) ) #{user.username}
+					else
+						option(value=user._id) #{user.username}
+		button.btn.btn-primary(type='submit') Submit
+	if errors
+		ul
+			for error in errors
+				li!= error.msg
