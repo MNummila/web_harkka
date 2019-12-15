@@ -17,7 +17,7 @@ exports.user_list = function(req, res, next){
 
 // Display User create form on GET.
 exports.user_create_get = function(req, res, next) {
-    res.render('User_form',{title: 'Create user.'});
+    res.render('user_form',{title: 'Create user.'});
 };
 
 // Handle User create on POST.
